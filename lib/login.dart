@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _isAuthorized?Text("authed"):Text("not auth"),
+          _isAuthorized?Text("authed"):Text("not auth "),
           const Text(
             "Sign in with Google!",
             style: TextStyle(fontSize: 30),
